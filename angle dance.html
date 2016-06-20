@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>Canvas007 Angle</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+
+        canvas {
+            /* image-rendering: pixelated; */
+            border-style: solid;
+            border-width: 0.2px;
+            border-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="canvas.js"></script>
+    <script src="angle dance.js"></script>
+
+    <p>
+        左クリックで点を追加できます。2つ目以降の点は1つ目の点に対する角度が表示されます。
+    </p>
+    <p>
+        ダブルクリックで座標の原点を移動できます。
+    </p>
+    <p>
+        <input id="buttonDance" type="button" value="Dance" onclick="onClickButtonDance()">
+    </p>
+</body>
+
+</html>
